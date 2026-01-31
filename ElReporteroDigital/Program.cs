@@ -73,6 +73,20 @@ namespace ISW123_ReporteroDigital_2023_4374
 
     }
 
+    public class ProgramaPrincipal
+    {
+        public static async Task Main(string[] args)
+        {
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine(" REPORTERO DIGITAL - MATRÍCULA 2023-4374");
+            Console.WriteLine("--------------------------------------------");
+
+            Console.WriteLine("Ingrese su matrícula por favor mi loco:");
+            string matricula = Console.ReadLine() ?? "";
+
+        } 
+
+    }
 
 
 
